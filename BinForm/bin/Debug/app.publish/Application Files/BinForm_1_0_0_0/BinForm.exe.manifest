@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BinForm.exe" version="1.0.0.0" publicKeyToken="03fa7cff349196d6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BinForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BinForm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opcje manifestu UAC
+          Jeśli chcesz zmienić poziom kontroli kont użytkowników w systemie Windows, zastąp węzeł 
+          requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Jeśli w celu zapewnienia wstecznej zgodności chcesz użyć wirtualizacji plików i rejestru, 
+         usuń węzeł requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BinForm.exe" size="16352">
+      <assemblyIdentity name="BinForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>74AIPCMcckgaeJT/PQJoppyngxf5ZuDnxpTg8bsTbEg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BinForm.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-54S88QE\mnawr" issuerKeyHash="7546bc8638e16492d99b0ef39918a043ab9290d4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UM6Gxm3h8VRadgQEbCjzV2iUu9I8+23/5g6YvCLLKCg=</DigestValue></Reference></SignedInfo><SignatureValue>Gu3bej4dhdUwmjaP2MdG3+f1MPnQJ6Ikxd/11TcrPzWyBM4WLsDYgFu2Rmn4npwoWlCMhLpWYQJg6Vfmj6dv5XaDv0leS+b8fBaGtDzx2W9xKqA7ZQvKZ8L3QirAcw5kPi95JruSo3lU9wFUeuwH1hCG7AhTYnkO2retcIxzCIw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rUiaxe8bJrTi9pULxnKj0trNJs2ZGnfrsMgZdXGcwf1eEgHJJMyfsSovfdS79AbYPtHruiWK3l5QAz+OL82PMjT5vnUq2Qn1ms1Ixo3EzmMh+gXs7WG7aEJ7rr2L7N120gK3/QNcaIdAtaVWUuimK6PAgpVbFXSH2cxDHX+X7P0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2828cb22bc980ee6ff6dfb3cd2bb946857f3286c0404765a54f1e16dc686ce50" Description="" Url=""><as:assemblyIdentity name="BinForm.exe" version="1.0.0.0" publicKeyToken="03fa7cff349196d6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-54S88QE\mnawr</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>e6hL2oBJSnGV3w1yTYxzFAoA5uKgHyBi6DKp0c8j8j0=</DigestValue></Reference></SignedInfo><SignatureValue>gdW5KOmzBLOwhF0LeVf9pgYtOaCv9iOOecVQQU5dw1thEyVwXQJMJ48oIy8+rY3QR8FRft1Y3hRfTejmJvD/nKBU6toJgI9B22dUOTk/zNKUWeSW8Wg3ui6+eCbNdeVTjyvSr2RAm2W2aqx23bIVZiJaZ4JO88T8byItMIopgLQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rUiaxe8bJrTi9pULxnKj0trNJs2ZGnfrsMgZdXGcwf1eEgHJJMyfsSovfdS79AbYPtHruiWK3l5QAz+OL82PMjT5vnUq2Qn1ms1Ixo3EzmMh+gXs7WG7aEJ7rr2L7N120gK3/QNcaIdAtaVWUuimK6PAgpVbFXSH2cxDHX+X7P0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQE2yFNYochJdKO+mhqP/WEDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUANABTADgAOABRAEUAXABtAG4AYQB3AHIwHhcNMTkwNjE1MDgzMTU0WhcNMjAwNjE0MTQzMTU0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUANABTADgAOABRAEUAXABtAG4AYQB3AHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK1ImsXvGya04vaVC8Zyo9LazSbNmRp367DIGXVxnMH9XhIBySTMn7EqL33Uu/QG2D7R67olit5eUAM/ji/NjzI0+b51KtkJ9ZrNSMaNxM5jIfoF7O1hu2hCe669i+zddtICt/0DXGiHQLWlVlLopiujwIKVWxV0h9nMQx1/l+z9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAkC9vPBq4rc2Juj4qCq0OBvwzP5Tn8ptOTQ7WRoPyCT1iPohOjqxwWYNSOY1+x6ViJXoQLcOpUYEqArR9JLbWr0nf90hC7wk2TT331A5XKX3eiF5yhMhjv9D+m+08UqSyILozfOq0I8usLLkVwhzkan+FdC870fy3+HKuaL0fz/M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+C:\Users\mnawr\source\repos\BinForm\BinForm\bin\Debug\BinForm.exe.config
+C:\Users\mnawr\source\repos\BinForm\BinForm\bin\Debug\BinForm.exe
+C:\Users\mnawr\source\repos\BinForm\BinForm\bin\Debug\BinForm.pdb
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.Form1.resources
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.Properties.Resources.resources
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.csproj.GenerateResource.Cache
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.csproj.CoreCompileInputs.cache
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.exe
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.pdb
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.csprojResolveAssemblyReference.cache
+C:\Users\mnawr\source\repos\BinForm\BinForm\bin\Debug\BinForm.exe.manifest
+C:\Users\mnawr\source\repos\BinForm\BinForm\bin\Debug\BinForm.application
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.exe.manifest
+C:\Users\mnawr\source\repos\BinForm\BinForm\obj\Debug\BinForm.application
