@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinForm", "BinForm\BinForm.csproj", "{4A1E8790-C209-458D-918A-5D11106DE638}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A1E8790-C209-458D-918A-5D11106DE638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1E8790-C209-458D-918A-5D11106DE638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1E8790-C209-458D-918A-5D11106DE638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1E8790-C209-458D-918A-5D11106DE638}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BEF12F2-9B00-4402-85E1-88EE084F3A5E}
+	EndGlobalSection
+EndGlobal
